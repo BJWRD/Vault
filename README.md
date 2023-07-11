@@ -13,7 +13,7 @@ To explore the Vault deployments in this repository, follow these steps:
   
 #### 3. Choose one of the available deployments from the list below and follow the instructions provided in their respective directories:
 
-* [vault-docker-compose](https://github.com/BJWRD/vault-docker-compose): `Hashicorp Vault application, built by Dockerfile, provisioned via Docker-Compose and hosted within a Docker container.` 
+* [vault-docker-compose](https://github.com/BJWRD/Vault/vault-docker-compose): `Hashicorp Vault application, built by Dockerfile, provisioned via Docker-Compose and hosted within a Docker container.` 
 
 Feel free to explore each example's directory for detailed instructions on how to use HashiCorp Vault. Each example comes with its own README file that provides step-by-step guidance.
 
