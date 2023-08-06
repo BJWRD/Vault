@@ -1,0 +1,18 @@
+version: '3.9'
+services:
+  vault-container:
+    container_name: vault
+    build: .
+    volumes:
+      - /home/vault-docker-compose:/home/vault
+      - /home/vault-docker-compose/logs:/home/vault/logs
+      - /home/vault-docker-compose/data:/home/vault/data
+      - /home/vault-docker-compose/config:/home/vault/config 
+    ports:
+      - 8080:8080
+    cap_add:
+      - IPC_LOCK
+    tty: true
+    logging:
+      options:
+        max-size: "10mb"
